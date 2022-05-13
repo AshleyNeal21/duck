@@ -29,10 +29,10 @@ main.addEventListener("click",function(event){
   
   if(this.className.indexOf(" gone ") > -1 ){
     this.className = this.className.replace(" gone ", "");
-    alert("I feel fantabulous... " + event.y);
+    alert("Je me sems super!... " + event.y);
   }
   else{
-    alert("you gave me a owie " + event.x);
+    alert("Aïe!! " + event.x);
     this.className = this.className + " gone ";
   }
 });
