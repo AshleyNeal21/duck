@@ -29,7 +29,7 @@ main.addEventListener("click",function(event){
   
   if(this.className.indexOf(" gone ") > -1 ){
     this.className = this.className.replace(" gone ", "");
-    alert("I feel better... " + event.y);
+    alert("I feel fantabulous... " + event.y);
   }
   else{
     alert("ouchy! " + event.x);
