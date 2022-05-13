@@ -32,7 +32,7 @@ main.addEventListener("click",function(event){
     alert("I feel fantabulous... " + event.y);
   }
   else{
-    alert("ouchy! " + event.x);
+    alert("you gave me a owie " + event.x);
     this.className = this.className + " gone ";
   }
 });
