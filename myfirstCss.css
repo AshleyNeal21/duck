@@ -1,0 +1,31 @@
+body{
+  background-color: lightseagreen;
+}
+h1{
+  color: pink;
+  background-color: mintcream;
+}
+p{
+  text-decoration: underline;
+}
+
+.special{
+  color: lightseagreen;
+  
+}
+
+form{
+  background-color: mintcream;
+  border: 1rem solid lightcoral;
+  padding: .5in;
+  margin: .25in;
+}
+
+form label{
+  display: block;
+  margin: .10in;
+}
+
+form label.required{
+  border: 1px solid red;
+}
